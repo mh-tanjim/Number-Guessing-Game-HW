@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number-Guessing-Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section class="number-guessing-game">
+    <h1> Number Guessing Game</h1>
+    <p class="error"></p>
+    <div class="main playerOne">
+        <h2 class="playerName"> Player - 1</h2>
+        <div class="border">
+        <input type="number" class="playerOneInput" placeholder="Player one input value">
+        <button class="playerOneButton">Guess</button>
+        </div>
+    </div>
+    <div class="main playerTwo">
+        <p class="chanceNumberTwo"> Chance left : <span class="chanceCountTwo"></span></p>
+        <h2 class="playerName"> Player - 2</h2>
+        <div class="border">
+        <input type="number" class="playerTwoInput" placeholder="Player two input value">
+        <button class="playerTwoButton">Guess</button>
+        </div>
+    </div>
+    <div class="main playerThree">
+        <p class="chanceNumberThree"> Chance left : <span class="chanceCountThree"></span></p>
+        <h2 class="playerName"> Player - 3</h2>
+        <div class="border">
+        <input type="number" class="playerThreeInput" placeholder="Player three input value">
+        <button class="playerThreeButton">Guess</button>
+        </div>
+    </div>
+    <div class="winner">
+        <img src="./images/winner.gif" alt="">
+        <h3 class="result"></h3>
+    </div>
+</section>
+
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
